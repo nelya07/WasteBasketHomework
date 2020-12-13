@@ -158,6 +158,7 @@ GameObject:
   - component: {fileID: 3731014159213489364}
   - component: {fileID: 6367812620297074158}
   - component: {fileID: 544836643289744355}
+  - component: {fileID: 1605041145068032216}
   m_Layer: 0
   m_Name: Origin
   m_TagString: Untagged
@@ -174,7 +175,7 @@ Transform:
   m_GameObject: {fileID: 6274737253291414310}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 10, y: 1, z: 10}
+  m_LocalScale: {x: 9.9, y: 1, z: 9.9}
   m_Children: []
   m_Father: {fileID: 2307584780270958296}
   m_RootOrder: 0
@@ -251,10 +252,22 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1605041145068032216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6274737253291414310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8f1f61dc8aca4b4fbe5d380b79c3975, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7173537059646980666
 GameObject:
   m_ObjectHideFlags: 0
